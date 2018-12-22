@@ -21,5 +21,13 @@ describe('starwars-names', () => {
       const randomName = starWars.random();
       expect(starWars.all).to.include(randomName);
     });
+
+    it('should return an array of random names if passed a number', () => {
+      const randomName = starWars.random(3);
+      expect(randomName).to.have.length(3);
+      randomName.forEach((item) => {
+        expect(starWars.all).to.include(item);
+      });
+    });
   });
 });
