@@ -1,6 +1,6 @@
 {
   "name": "random-starwars-names-tk",
-  "version": "1.4.0-beta.0",
+  "version": "1.5.0",
   "description": "Get a random Star Wars name",
   "main": "src/index.js",
   "scripts": {
