@@ -7,8 +7,6 @@ notifications:
   email: false
 node_js:
   - iojs
-before_install:
-  - npm i -g npm@^6.4.1
 before_script:
   - npm prune
 script: 
