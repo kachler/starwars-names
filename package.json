@@ -24,14 +24,14 @@
   },
   "homepage": "https://github.com/kachler/starwars-names#readme",
   "dependencies": {
-    "unique-random-array": "1.0.1"
+    "unique-random-array": "1.0.0"
   },
   "devDependencies": {
-    "chai": "4.2.0",
-    "commitizen": "3.0.5",
-    "cz-conventional-changelog": "2.1.0",
-    "mocha": "5.2.0",
-    "semantic-release": "^15.13.1"
+    "chai": "3.5.0",
+    "commitizen": "2.8.5",
+    "cz-conventional-changelog": "1.1.6",
+    "mocha": "3.0.1",
+    "semantic-release": "^4.2.1"
   },
   "czConfig": {
     "path": "node_modules/cz-conventional-changelog"
