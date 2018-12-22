@@ -30,7 +30,7 @@
     "chai": "3.5.0",
     "commitizen": "2.8.5",
     "cz-conventional-changelog": "1.1.6",
-    "mocha": "3.0.1",
+    "mocha": "5.2.0",
     "semantic-release": "^4.2.1"
   },
   "czConfig": {
